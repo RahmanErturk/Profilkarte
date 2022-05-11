@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.card{
+    width: 750px;
+    height: 421px;
+    position: relative;
+    margin: 8px auto; 
+}
+
+.card img {
+    border: 5px solid white;
+}
+
+.card .vname {
+    position: absolute;
+    top: 60px;
+    left: 680px;
+    width: 100px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.card .nname {
+    position: absolute;
+    top: 120px;
+    left: 680px;
+    width: 100px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    padding: 5px;
+}
+
